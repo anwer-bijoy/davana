@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #ffc300;
+  --black-color: #282828;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+/* HEader CSS start */
+#header .header-top {
+  border-bottom: 1px solid #ddd;
+}
+.header-top .header-top-body {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top-left {
+  display: flex;
+  align-items: center;
+}
+.header-top-left p {
+  color: var(--black-color);
+  font-size: 16px;
+}
+.header-top-left p .fa {
+  color: var(--primary-color);
+  font-size: 18px;
+  margin-right: 10px;
+}
+.header-top-left a {
+  color: var(--black-color);
+  font-size: 16px;
+}
+.header-top-left a .fa {
+  color: var(--primary-color);
+  font-size: 18px;
+  margin-right: 10px;
+}
+.header-top-left .envalope {
+  margin: 0 25px;
+}
+.header-top-right a {
+  display: inline-block;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 50px;
+  background-color: var(--primary-color);
+}
+/* NAvbar Start */
+.navbar {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar-logo {
+  width: 300px;
+}
+.navbar .navbar-logo img {
+  width: 100%;
+}
+.navbar .navbar-nav {
+  display: flex;
+}
+.navbar .navbar-nav li {
+  padding: 22px 25px;
+  list-style: none;
+}
+.navbar .navbar-nav li:nth-child(1) {
+  padding-left: 0;
+}
+.navbar .navbar-nav li:last-child {
+  padding-right: 0;
+}
+.navbar .navbar-nav li a {
+  color: var(--black-color);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+.navbar .navbar-nav li a:hover {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 600;
+}
